@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/textViewUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewUserEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="user@example.com"
+        android:textSize="16sp"
+        android:layout_below="@id/textViewUserName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/textViewRegistrationDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration Date: 01/01/2022"
+        android:textSize="16sp"
+        android:layout_below="@id/textViewUserEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewLastSeenDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Seen: 02/15/2023"
+        android:textSize="16sp"
+        android:layout_below="@id/textViewRegistrationDate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewExamsTaken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exams Taken: 5"
+        android:textSize="16sp"
+        android:layout_below="@id/textViewLastSeenDate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_below="@id/textViewExamsTaken"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+</RelativeLayout>
